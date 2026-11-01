@@ -8,6 +8,7 @@ export default function Header() {
         <nav aria-label="Navigasi utama">
           <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-muted">
             <li><a href="#koleksi" className="transition-colors hover:text-accent">Koleksi</a></li>
+            <li><a href="#katalog" className="transition-colors hover:text-accent">Referensi</a></li>
             <li><a href="#tambah" className="transition-colors hover:text-accent">Tambah Outfit</a></li>
           </ul>
         </nav>

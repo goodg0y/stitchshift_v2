@@ -24,3 +24,9 @@ Buka http://localhost:5173
 | `FormTambahOutfit` | Form controlled untuk menambah outfit | `onTambah` |
 
 State utama (`daftarOutfit`) ada di `App.jsx`.
+
+## Tugas 7: AJAX dan konsumsi API
+- API: DummyJSON (`https://dummyjson.com/products/category/{kategori}`), tanpa pendaftaran dan bisa diakses langsung dari browser.
+- Kode: `src/api/dummyjson.js` (fungsi `ambilProdukKategori`), `src/components/KatalogReferensi.jsx` (state loading/success/error), `StatusMuat.jsx`, `PesanError.jsx` (tombol Coba Lagi), `KartuProduk.jsx`.
+- Penjelasan endpoint dan pola loading/error: (tulis dengan kata-katamu sendiri)
+- Screenshot: (tempel loading, success, error)

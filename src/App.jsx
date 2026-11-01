@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import RingkasanOutfit from "./components/RingkasanOutfit";
+import KatalogReferensi from "./components/KatalogReferensi";
 import FormTambahOutfit from "./components/FormTambahOutfit";
 import FilterVibe from "./components/FilterVibe";
 import DaftarOutfit from "./components/DaftarOutfit";
@@ -73,6 +74,16 @@ export default function App() {
             onHapus={hapusOutfit}
             onToggleItem={toggleItem}
           />
+        </section>
+
+        <section id="katalog" className="mt-16" aria-labelledby="judul-katalog">
+          <h2 id="judul-katalog" className="font-serif text-2xl font-bold">
+            Referensi belanja
+          </h2>
+          <p className="mb-4 mt-1 max-w-xl text-sm text-muted">
+            Contoh produk dari katalog online (data API DummyJSON) untuk inspirasi item outfitmu.
+          </p>
+          <KatalogReferensi />
         </section>
 
         <section id="tambah" className="mt-16 max-w-3xl" aria-labelledby="judul-tambah">
